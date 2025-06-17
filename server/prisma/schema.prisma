@@ -20,7 +20,7 @@ model User {
   lastName          String
   email             String        @unique
   password          String
-  dateOfBirth       Date
+  dateOfBirth       DateTime
   role              String
 
   polls             Poll[]
